@@ -42,3 +42,39 @@ header {
     color: #0067C0;
     border: solid 1px #0067C0;
   }
+// styles.css
+#confirmationModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  width: 50%;
+}
+
+#confirmButton,
+#cancelButton {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  /* 追加：ボタンのスタイル */
+}
+
+#cancelButton {
+  /* 追加：キャンセルボタンの色を変更 */
+  background-color: #ccc;
+}
+
+#confirmButton:hover,
+#cancelButton:hover {
+  /* 追加：ホバー時のスタイル */
+  background-color: #ddd;
+}

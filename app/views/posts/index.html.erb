@@ -36,7 +36,7 @@
         <td><%= post.updated_at %></td>
         <td><%= link_to "詳細ページ", post_path(post) %></td>
         <td><%= link_to "編集ページ", edit_post_path(post) %></td>
-        <td><%= button_to "削除", post, method: :delete, data: { confirm: "削除しますか?" } %></td>
+        <td><%= link_to "削除", post, method: :delete, data: { confirm: "削除しますか?" } %></td>
       </tr>
     <% end %>
   </tbody>
